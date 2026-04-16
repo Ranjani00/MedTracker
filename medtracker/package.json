@@ -1,0 +1,10 @@
+{
+  "name": "medtracker",
+  "version": "1.0.0",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "cd backend && mvn clean package -DskipTests",
+    "start:backend": "cd backend && java -jar target/medtracker-backend-1.0.0.jar"
+  }
+}
